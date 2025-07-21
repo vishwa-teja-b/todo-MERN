@@ -19,7 +19,7 @@ function App() {
 
   async function fetchTasks(){
     try{
-      const response = await axios.get('http://localhost:5000/todo/tasks');
+      const response = await axios.get('https://todo-mern-vw4o.onrender.com/todo/tasks');
       const data = response.data;
 
       if(!data){
